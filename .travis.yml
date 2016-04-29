@@ -40,6 +40,7 @@ env:
 jdk:
 - oraclejdk8
 - oraclejdk7
+
 language: java
 notifications:
   webhooks:
