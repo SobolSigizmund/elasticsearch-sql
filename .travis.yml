@@ -22,6 +22,7 @@ before_install:
 - wget $DFB_AGENTS_URL/beforebuild.sh
 - chmod a+x beforebuild.sh
 - ./beforebuild.sh
+
 env:
   global:
   - DFB_PROJECT_DIR=$(pwd)
